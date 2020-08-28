@@ -1,0 +1,26 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "Setting up restful Api on Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/restful-API/Abworld"
+  },
+  "keywords": [
+    "Restful-API"
+  ],
+  "author": "Abass Olayiwola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
